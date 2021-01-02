@@ -39,7 +39,7 @@ fi
 
 mkdir /v2raybin
 cd /v2raybin
-V2RAY_URL="https://github.com/v2ray/v2ray-core/releases/download/$V_VER/v2ray-linux-64.zip"
+V2RAY_URL="https://github.com/v2fly/v2ray-core/releases/download/v4.31.0/v2ray-linux-64.zip"
 echo ${V2RAY_URL}
 wget --no-check-certificate -qO 'v2ray.zip' ${V2RAY_URL}
 unzip v2ray.zip
